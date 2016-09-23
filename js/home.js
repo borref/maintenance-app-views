@@ -6,7 +6,7 @@ submitBtn.addEventListener('click', function (evt) {
   var _this = this;
   setTimeout(function () {
   	_this.classList.remove('loading');
-    alert('ready pa la party');
+    alert('Solicitud de registro exitosa');
   }, 3000);
 
 });
