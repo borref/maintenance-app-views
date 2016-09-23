@@ -6,6 +6,20 @@
 
 .invisible { display: none !important; }
 
+.ui.inverted.main-blue.button {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px #1A869C inset !important;
+  color: #1A869C;
+  font-weight: 500;
+}
+
+.ui.inverted.main-blue.active.button,
+.ui.inverted.main-blue.button:hover {
+  background-color: #1A869C;
+  color: #fff;
+  font-weight: 500;
+}
+
 /* Login rules */
 
 body.login {
@@ -15,13 +29,20 @@ body.login {
   position: relative;
 }
 
-.ui.logo.school.image { margin: 0 auto 20%; }
+/* .ui.logo-school.image { margin: 0 auto 20%; } */
+
+h1.app-name { 
+  color: #273B7D; 
+  margin: 1.5rem 0 15%;
+  font-size: 1.75rem;
+  text-align: center;
+}
 
 label { color: gray !important; }
-.ui.submit.button { background-color: #82d173; color: white; }
+.ui.submit.button { background-color: #F0B67F; color: white; }
 
 footer.login {
-  background-color: #1a869c;
+  background-color: #1A869C;
   /*background-color: #78cae3;*/
   bottom: 0;
   position: absolute;
@@ -78,7 +99,7 @@ aside.ui.sidebar .item:not(header) h3 {
 /* Home */
 
 header.main.navbar.menu {
-  background-color: #1a869c;
+  background-color: #1A869C;
 }
 
 header.main.navbar.menu h2 {
@@ -105,7 +126,7 @@ header.main.navbar.menu button {
   top: 1px;
 }
 
-header.main.navbar.menu button.setting { right: 0; }
+header.main.navbar.menu button.setting { display: none; right: 0; }
 
 /* Section Container */
 
