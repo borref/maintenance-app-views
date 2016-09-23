@@ -1,0 +1,125 @@
+/* Fixes/Hacks */
+
+.header-padding { height: 56px; }
+
+/* General rules */
+
+.invisible { display: none !important; }
+
+/* Login rules */
+
+body.login {
+  background: url(../images/background-3.png) no-repeat;
+  background-size: cover;
+  padding-top: 18%;
+  position: relative;
+}
+
+.ui.logo.school.image { margin: 0 auto 20%; }
+
+label { color: gray !important; }
+.ui.submit.button { background-color: #82d173; color: white; }
+
+footer.login {
+  background-color: #1a869c;
+  /*background-color: #78cae3;*/
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+footer.login p {
+  color: white;
+  font-size: .875em;
+  /*font-weight: bold;*/
+  margin: 4px !important;
+  text-align: center;
+}
+
+/* Sidebar */
+
+aside.ui.sidebar { border: none; }
+
+aside.ui.sidebar p {
+  bottom: 0;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 auto 6px;
+  position: absolute;
+  text-align: center;
+}
+
+aside.ui.sidebar header.item {
+  background: url(../images/header-bg.png) !important;
+  background-size: cover !important;
+  height: 140px;
+  margin-bottom: 1.25rem;
+}
+
+aside.ui.sidebar header.item img { height: 65px; }
+
+aside.ui.sidebar header.item h3 { 
+  color: white;
+  font-size: 1rem; 
+  margin-top: 1.25rem;
+}
+
+aside.ui.sidebar header.item h3 .sub.header { 
+  color: white;
+  font-size: .8571428em;
+  margin-top: .285714em;
+}
+
+aside.ui.sidebar .item:not(header) h3 { 
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Home */
+
+header.main.navbar.menu {
+  background-color: #1a869c;
+}
+
+header.main.navbar.menu h2 {
+  color: white;
+  font-size: 1.25rem;
+  margin: 1.28571428rem 0 1rem 4.5rem;
+}
+
+header.main.navbar.menu button {
+  background: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 1px;
+}
+
+header.main.navbar.menu button {
+  background: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 1px;
+}
+
+header.main.navbar.menu button.setting { right: 0; }
+
+/* Section Container */
+
+section.main.container {
+  margin: 2rem auto;
+  width: 90%;
+}
+
+/* Result segment */
+
+.ui.result.segment h4 { font-size: 1rem; margin-top: .5rem; }
+
+.ui.result.segment p { font-size: .875rem; }
+
+.ui.result.segment p.ticket.number { display: inline-block; }
+
+.ui.result.segment .state.label { float: right; }

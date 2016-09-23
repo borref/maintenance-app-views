@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,
+     user-scalable=no, minimal-ui">
+     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+     <link rel="stylesheet" type="text/css" href="css/global.css">
+  </head>
+  <body>
+    <h1 class="invisible">Home view</h1>
+    <aside class="ui vertical left sidebar borderless menu">
+      <header class="item">
+        <h2 class="invisible">Navigation sidebar</h2>
+        <img class="ui circular image" src="images/man.jpg" alt="profile pic">
+        <h3 class="ui header">
+          John Doe
+          <div class="sub header">
+            Sistemas
+          </div>
+        </h3>
+      </header>
+      <a href="#" class="item">
+        <h3 class="ui header">
+          <i class="pencil icon"></i>
+          Registrar
+        </h3>
+      </a>
+      <a href="#" class="item">
+        <h3 class="ui header">
+          <i class="search icon"></i>
+          Consultar
+        </h3>
+      </a>
+      <p>© 2016 Marymount School. Todos los derechos reservados.</p>
+    </aside>
+    <div class="pusher">
+      <header class="ui top fixed main navbar menu">
+        <div class="ui container">
+          <button class="ui icon navigation button" type="button">
+            <i class="sidebar icon"></i>
+          </button>
+          <h2>Soporte</h2>
+          <button class="ui setting icon button" type="button">
+            <i class="setting icon"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="header-padding"></div>
+
+      <section class="main container">
+        <h3>Consultar solicitudes</h3>
+        <form class="ui form">
+          <div class="field">
+            <label for="department">Departamento</label>
+            <select class="ui dropdown" name="department" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Mantenimiento</option>
+              <option value="0">Sistemas</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="filter">Filtrar por</label>
+            <select class="ui dropdown" name="filter" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Todos</option>
+              <option value="0">Abierta sin atender</option>
+              <option value="0">Abierta atendida</option>
+              <option value="0">Escalada</option>
+              <option value="0">Pendiente x respuesto</option>
+              <option value="0">Cerrada</option>
+            </select>
+          </div>
+        </form>
+      </section>
+      <section class="main container">
+        <h3>Resultados</h3>
+        <article class="ui result segment">
+          <!-- <span class="ui red ribbon label">Sistemas</span> -->
+          <h4>El teclado no funciona</h4>
+          <p class="ticket number">
+            <strong>Ticket:&nbsp;</strong>
+            795
+          </p>
+          <span class="ui blue state label">Escalada</span>
+          <p><strong>Comentario</strong></p>
+          <p>El teclado no funciona, yo escribo y escribo y nada. De hecho,
+            No sé cómo escribí esto.</p>
+        </article>
+        <article class="ui result segment">
+          <!-- <span class="ui purple ribbon label">Mantenimiento</span> -->
+          <h4>El mouse no funciona</h4>
+          <p class="ticket number">
+            <strong>Ticket:&nbsp;</strong>
+            392
+          </p>          
+          <span class="ui orange state label">Abierta atendida</span>
+          <p><strong>Comentario</strong></p>
+          <p>El mouse no funciona, yo doy click y click y nada. De hecho,
+            No sé cómo di click aquí.</p>
+        </article>
+        <article class="ui result segment">
+          <!-- <span class="ui red ribbon label">Sistemas</span> -->
+          <h4>No puedo imprimir en una impresora de red</h4>
+          <p class="ticket number">
+            <strong>Ticket:&nbsp;</strong>
+            891
+          </p>
+          <span class="ui yellow state label">Abierta sin atender</span>
+          <p><strong>Comentario</strong></p>
+          <p>El teclado no funciona, yo escribo y escribo y nada. De hecho,
+            No sé cómo escribí esto.</p>
+        </article>
+      </section>
+    </div>      
+    <script src="libs/jquery.min.js" type="text/javascript"></script>
+		<script src="semantic/semantic.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/consult.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,
+     user-scalable=no, minimal-ui">
+     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+     <link rel="stylesheet" type="text/css" href="css/global.css">
+  </head>
+  <body>
+    <h1 class="invisible">Home view</h1>
+    <aside class="ui vertical left sidebar borderless menu">
+      <header class="item">
+        <h2 class="invisible">Navigation sidebar</h2>
+        <img class="ui circular image" src="images/man.jpg" alt="profile pic">
+        <h3 class="ui header">
+          John Doe
+          <div class="sub header">
+            Sistemas
+          </div>
+        </h3>
+      </header>
+      <a href="#" class="item">
+        <h3 class="ui header">
+          <i class="pencil icon"></i>
+          Registrar
+        </h3>
+      </a>
+      <a href="#" class="item">
+        <h3 class="ui header">
+          <i class="search icon"></i>
+          Consultar
+        </h3>
+      </a>
+      <p>© 2016 Marymount School. Todos los derechos reservados.</p>
+    </aside>
+    <div class="pusher">
+      <header class="ui top fixed main navbar menu">
+        <div class="ui container">
+          <button class="ui icon navigation button" type="button">
+            <i class="sidebar icon"></i>
+          </button>
+          <h2>Soporte</h2>
+          <button class="ui setting icon button" type="button">
+            <i class="setting icon"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="header-padding"></div>
+
+      <section class="main container">
+        <h3>Registrar solicitud</h3>
+        <form class="ui form">
+          <div class="field">
+            <label for="department">Departamento</label>
+            <select class="ui dropdown" name="department" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Mantenimiento</option>
+              <option value="0">Sistemas</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="building">Edificio</label>
+            <select class="ui dropdown" name="building" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Administración</option>
+              <option value="0">Pre-escolar</option>
+              <option value="1">Elemental</option>
+              <option value="0">Bachillerato</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="section">Sección</label>
+            <select class="ui dropdown" name="section" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Piso 1</option>
+              <option value="0">Piso 2</option>
+              <option value="1">Piso 3</option>
+              <option value="0">Mantenimiento</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="place">Lugar</label>
+            <select class="ui dropdown" name="place" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">Biblioteca</option>
+              <option value="0">Admisiones</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="request">Solicitud</label>
+            <select class="ui dropdown" name="request" id="">
+              <option value="">Seleccione uno</option>
+              <option value="1">El equipo está bloqueda</option>
+              <option value="0">El equipo no arranca</option>
+              <option value="1">El mouse no funciona bien</option>
+              <option value="0">El teclado no funciona bien</option>
+              <option value="1">La impresora no prende</option>
+              <option value="0">La impresora está bloqueda</option>
+              <option value="1">No puedo imprimir en una impresora de red</option>
+              <option value="0">El monitor no funciona bien</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="comment">Comentario</label>
+            <textarea rows="8" placeholder="Describa aquí su problema"></textarea>
+          </div>
+          <button class="ui right labeled submit fluid icon button" type="button">
+            Crear solicitud
+            <i class="checkmark icon"></i>
+          </button>
+        </form>
+      </section>
+    </div>      
+    <script src="libs/jquery.min.js" type="text/javascript"></script>
+		<script src="semantic/semantic.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/home.js" type="text/javascript"></script>
+  </body>
+</html>
