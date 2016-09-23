@@ -14,7 +14,8 @@
 }
 
 .ui.inverted.main-blue.active.button,
-.ui.inverted.main-blue.button:hover {
+.ui.inverted.main-blue.button:hover,
+.ui.inverted.main-blue.button:focus {
   background-color: #1A869C;
   color: #fff;
   font-weight: 500;
