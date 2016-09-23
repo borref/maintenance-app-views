@@ -1,3 +1,5 @@
+FastClick.attach(document.body);
+
 $('.ui.sidebar')
   .sidebar({
   	transition: 'overlay',
