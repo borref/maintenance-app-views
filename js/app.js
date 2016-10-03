@@ -1,6 +1,7 @@
 // Initializing DOM objets
 FastClick.attach(document.body);
 
+
 $('.ui.sidebar')
   .sidebar({
   	transition: 'overlay',
